@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The about page of jeet solution hotel website">
+    <title>About - Jeet Solution Hotel</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <!-- Logo with Home Link -->
+                <h1 id="logo">
+                    <a href="index.html">
+                        jeet<sub>solution</sub>
+                    </a>
+                </h1>
+                
+                <!-- Hamburger Menu -->
+                <div class="menu-icon" onclick="toggleMenu()">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+
+                <!-- Menu Content -->
+                <div class="menu-content" id="menuContent">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section class="about-section">
+            <div class="container">
+                <h3 class="text-capitalize mb-3" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    about us
+                    <hr class="bg-secondary about-hr second-hr">
+                </h3>
+                
+                <p data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    Jeet Solution is a resort that puts all clients interest in mind and 
+                    makes you comfortable in all ways possible. We are located at Charles 
+                    Avenue behind All Star barracks.
+                </p>
+            </div>
+        </section>
+
+        <!-- Customer Feedback Section -->
+        <section class="feedback-section">
+            <div class="container">
+                <h3 class="text-center text-capitalize mb-3">
+                    customers feedback about us
+                    <hr class="bg-secondary about-hr second-hr">
+                </h3>
+
+                <div class="testimonials">
+                    <div class="testimonial-card" data-aos="fade-up">
+                        <p class="text-secondary text-capitalize">anthony joshua</p>
+                        <p class="testimonial-text">Amazing experience at Jeet Solution!</p>
+                    </div>
+
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                        <p class="text-secondary text-capitalize">shahrukh khan</p>
+                        <p class="testimonial-text">Exceptional service and comfort.</p>
+                    </div>
+
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="400">
+                        <p class="text-secondary text-capitalize">kelvin hart</p>
+                        <p class="testimonial-text">Perfect stay for business and leisure.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Book Now Section -->
+        <section class="booking-section">
+            <div class="container">
+                <div class="text-center text-capitalize btn-div">
+                    <a href="/html/contact.html#book" class="btn-secondary">
+                        <svg><rect class="rect-secondary"></rect></svg>
+                        book now 
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Jeet Solution Hotel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html> 
